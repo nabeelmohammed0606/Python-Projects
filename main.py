@@ -1,8 +1,5 @@
-#cash register simple
+length = float(input("Enter the length of the rectangle :"))
+width = float(input("Enter the widht of the rectangle: "))
 
-item_price = float(input("Enter the price of the item: "))
-item_quantity = int(input("Enter the quantity of the item: "))
-
-total = item_price * item_quantity 
-
-print(f"Total: ${total}")
+area = (length * width)
+print(area)
