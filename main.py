@@ -1,5 +1,5 @@
-length = float(input("Enter the length of the rectangle :"))
-width = float(input("Enter the widht of the rectangle: "))
 
-area = (length * width)
-print(area)
+age = int(input("Enter your age: "))
+
+if age > 50: print('You are a senior')
+else: print('You young bro')
