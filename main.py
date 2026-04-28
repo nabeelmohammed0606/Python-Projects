@@ -1,8 +1,14 @@
-#cash register simple
+#lil problems
 
-item_price = float(input("Enter the price of the item: "))
-item_quantity = int(input("Enter the quantity of the item: "))
+age = 25
+result = (age == 40)
+print(result)
 
-total = item_price * item_quantity 
+VAT = 12.5
 
-print(f"Total: ${total}")
+# 
+tempreature = 100
+#checking to see if the tempreature is really 100 degrees
+
+result = (tempreature == 100)
+print(f"{result}")
