@@ -1,19 +1,11 @@
+# this is the odd or even program calculation
 
-# guitar_strings = ['E', 'A', 'D', 'G', 'B', 'E']
+num = int(input("Enter the number: "))
 
-# for i in guitar_strings: 
-#     print(i)
 
-#     piano_keys = ['C', 'D', 'E', 'F', 'G', 'A', 'B', 'C']
 
-# for i in piano_keys:
-#     print(i)
-
-# for i in range(10):
-#     print(i)
-
-# for i in range(1, 5):
-#     print(i)
-
-# for i in range(30, 70, 5):
-#     print(i)
+#this is read as: if the number entered (num) when divided by 2 compare to see if the remainder is zero
+if num % 2 == 0:
+    print(f"{num} is an Even Number")
+else: 
+        print(f"{num} is an Odd Number")
