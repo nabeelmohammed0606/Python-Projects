@@ -1,23 +1,19 @@
-#This branch is used for the questions
 
-#efficiency question
-# formula: efficiency = distance_traveled / fuel_used
-# categorize cars by highly efficient: efficiency greater than 15km/l
-# moderately efficienct: 10km/l and 15km/l (inclusive)
-# inefficient: efficiency less than 10km/l
+# guitar_strings = ['E', 'A', 'D', 'G', 'B', 'E']
 
-distance_traveled = float(input("Enter the distance traveled in km:"))
+# for i in guitar_strings: 
+#     print(i)
 
-fuel_used = float(input("Enter the amount of fuel used: "))
+#     piano_keys = ['C', 'D', 'E', 'F', 'G', 'A', 'B', 'C']
 
-fuel_efficiency = (distance_traveled / fuel_used)
+# for i in piano_keys:
+#     print(i)
 
-# used for testing:
-#print(f"{fuel_efficiency}")
+# for i in range(10):
+#     print(i)
 
-if fuel_efficiency > 15: print("Highly Efficient")
+# for i in range(1, 5):
+#     print(i)
 
-elif 10 <= fuel_efficiency <= 15:
-        print("Moderately Efficient")
-
-else: print("Inefficient")
+# for i in range(30, 70, 5):
+#     print(i)
