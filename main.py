@@ -1,5 +1,11 @@
-length = float(input("Enter the length of the rectangle :"))
-width = float(input("Enter the widht of the rectangle: "))
+# this is the odd or even program calculation
 
-area = (length * width)
-print(area)
+num = int(input("Enter the number: "))
+
+
+
+#this is read as: if the number entered (num) when divided by 2 compare to see if the remainder is zero
+if num % 2 == 0:
+    print(f"{num} is an Even Number")
+else: 
+        print(f"{num} is an Odd Number")
